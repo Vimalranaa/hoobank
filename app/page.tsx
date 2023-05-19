@@ -3,6 +3,11 @@ import styles from "./utils/style"
 import Hero from "./components/Hero"
 import Stats from "./components/Stats"
 import Business from "./components/Business"
+import Billing from "./components/Billing"
+import CardDeal from "./components/CardDeal"
+import Testimonials from "./components/Testimonials"
+import Clients from "./components/Clients"
+import Footer from "./components/Footer"
 
 export default function Home() {
   return (
@@ -16,6 +21,11 @@ export default function Home() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
+          <Billing />
+          <CardDeal />
+          <Testimonials />
+          {/* <Clients /> */}
+          <Footer />
         </div>
       </div>
     </>

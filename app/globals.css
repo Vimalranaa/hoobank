@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.hover-arrow-rotate {
+  transition: 0.25s ease-in-out;
+}
+.arrow-group:hover .hover-arrow-rotate {
+  transform: rotate(40deg) translateX(2px);
+}
+
+.fade-in-down-small {
+  animation: fade-in-down-small 1s linear alternate;
+}
+
+@keyframes fade-in-down-small {
+  from {
+    left: 10px;
+  }
+  to {
+    left: 0px;
+  }
+}
